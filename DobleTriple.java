@@ -1,5 +1,17 @@
+import java.util.Scanner;
 
-  public static void main(String[] args) {
+public class DobleTriple {
+
+    // Función con parámetros y retorno
+    public static int calcular(int numero, int opcion) {
+        if (opcion == 1) {
+            return numero * 2;
+        } else {
+            return numero * 3;
+        }
+    }
+
+    public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
 
